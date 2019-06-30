@@ -27,6 +27,14 @@ return true;
 
   }
 
+  public void drink (Bottle bottle, Drinker drinker) {
+      System.out.println("Pijak " + drinker.getName() + " bedzie pil" + bottle.getLiquid() + "litrow");
+      drinker.setBottlesCount(drinker.getBottlesCount() + 1);
+      drinker.setHealthPoint(drinker.getHealthPoint() - bottle.getLiquid());
+      bottle.setLiquid(0);
+      System.out.println("pijak " + drinker.getBottlesCount());
+  }
+
   public void breakBottle(Bottle butelka) {
       butelka.setBroken(true);
       butelka.setLiquid(0);
