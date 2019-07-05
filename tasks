@@ -1,0 +1,4 @@
+1. create String array. Add 10 items, for integer values.
+2. Swap first and second element
+3. for rest of them multiply by 3
+4. find all odd elements and display them
