@@ -1,0 +1,16 @@
+1. create String array. Add 10 items, for integer values.
+2. Swap first and second element
+3. for rest of them multiply by 3
+4. find all odd elements and display them
+
+
+---------------------------------------
+
+in our project 
+
+dont allow to drink liqiud more than dirinker can. We have variable healthPoint. So we shoud avoid then dead drinked drink more.
+examle drinker.getHealthPoint() is 1 and bootle cointains 2 litres.
+
+we olso should check during call bottleService method drink()  if drinker is dead ( healthPoint == 0)
+
+
